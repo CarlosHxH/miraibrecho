@@ -1,0 +1,115 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+/*@import url("https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css");
+*/
+@import url("https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple");/*
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0");
+*/
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+.outline{font-variation-settings: 'FILL' 0, 'wght' 600, 'GRAD' 0, 'opsz' 48;}
+.fill{font-variation-settings: 'FILL' 1, 'wght' 600, 'GRAD' 0, 'opsz' 48;}
+body{
+  background: #966e4f;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* Flex */
+.flex {
+	display: flex;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.flex-item-1 {
+	flex: 1;
+}
+
+/* Flex Item */
+.item {
+  width: 140px;
+  height: 200px;
+	margin: 5px;
+	background: tomato;
+	text-align: center;
+	font-size: 1.5em;
+}
+.container {
+  width: auto;
+	margin: 0 auto;
+}
+
+@media only screen and (min-width: 320px) {
+  .item {
+    width: calc(100% / 2 - 4px);
+    margin: 2px auto;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .item {
+    width: calc(100% / 5 - 4px);
+    margin: 2px 2px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .item {
+    width: calc(100% / 5 - 4px);
+  }
+}
+
+.hide-text {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  }
+
+.search{
+  padding: 5px 10px;
+}
+.nav__logo{
+  margin-left: 20px;
+}
+
+.bx-cart{
+  color: #282c34;
+  font-style: none;
+}

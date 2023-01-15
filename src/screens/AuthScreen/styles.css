@@ -1,0 +1,13 @@
+.bg{
+    background-color:white;
+    margin:auto;
+    width:80%;
+    height:50%;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+@media (min-width: 480px){
+    .bg{
+        margin-top:100px;
+    }
+}
